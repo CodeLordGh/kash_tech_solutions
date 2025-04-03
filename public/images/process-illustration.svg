@@ -1,0 +1,62 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8fafc" rx="10" ry="10"/>
+  
+  <!-- Process Flow Diagram -->
+  <g transform="translate(50, 50)">
+    <!-- Step 1: Discovery -->
+    <rect x="0" y="0" width="100" height="80" rx="8" ry="8" fill="#4f46e5" opacity="0.8"/>
+    <text x="50" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Discovery</text>
+    
+    <!-- Arrow 1 -->
+    <path d="M 110 40 L 140 40" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 2: Strategy -->
+    <rect x="150" y="0" width="100" height="80" rx="8" ry="8" fill="#4f46e5" opacity="0.8"/>
+    <text x="200" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Strategy</text>
+    
+    <!-- Arrow 2 -->
+    <path d="M 260 40 L 290 40" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 3: Design -->
+    <rect x="300" y="0" width="100" height="80" rx="8" ry="8" fill="#4f46e5" opacity="0.8"/>
+    <text x="350" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Design</text>
+    
+    <!-- Arrow 3 -->
+    <path d="M 350 90 L 350 120" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 4: Development -->
+    <rect x="300" y="130" width="100" height="80" rx="8" ry="8" fill="#4f46e5" opacity="0.8"/>
+    <text x="350" y="175" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Development</text>
+    
+    <!-- Arrow 4 -->
+    <path d="M 290 170 L 260 170" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 5: Testing -->
+    <rect x="150" y="130" width="100" height="80" rx="8" ry="8" fill="#4f46e5" opacity="0.8"/>
+    <text x="200" y="175" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Testing</text>
+    
+    <!-- Arrow 5 -->
+    <path d="M 140 170 L 110 170" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 6: Launch -->
+    <rect x="0" y="130" width="100" height="80" rx="8" ry="8" fill="#4f46e5" opacity="0.8"/>
+    <text x="50" y="175" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Launch</text>
+    
+    <!-- Arrow 6 (Support cycle) -->
+    <path d="M 50 130 L 50 90" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="65" y="110" font-family="Arial" font-size="12" fill="#64748b">Support</text>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="500" cy="80" r="30" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="520" cy="320" r="40" fill="#4f46e5" opacity="0.2"/>
+  <circle cx="100" cy="350" r="25" fill="#f59e0b" opacity="0.2"/>
+  
+  <!-- Arrow Marker Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>
