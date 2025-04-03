@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ServicesPage from './pages/ServicesPage';
-import PortfolioPage from './pages/PortfolioPage';
-import ContactPage from './pages/ContactPage';
+import HomePage from './Pages/HomePage';
+import AboutPage from './Pages/AboutPage';
+import ServicesPage from './Pages/ServicesPage';
+import PortfolioPage from './Pages/PortfolioPage';
+import ContactPage from './Pages/ContactPage';
 import IntroAnimation from './components/IntroAnimation';
 import ScrollToTop from './components/ScrollToTop';
 
